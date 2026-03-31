@@ -24,6 +24,9 @@ SQL Manager studio >= 18
 pip install -r requirements.txt
 </pre>
 
+After that, run the ```Main.ipynb```. <br>
+When loading the dataset to SQL, please change the ```SERVER_NAME```, ```DATABASE_NAME``` and ```driver``` to your target server,database name. <br>
+
 ## Project Structure
 ```text
 Sport_Venue_directory/
