@@ -1,4 +1,4 @@
-# 🏟️ Sports Venue Directory: Vietnam Market
+# Sports Venue Directory: Vietnam Market
 
 ## Part 1: Schema Design
 **KEY FEATURES**: I design this schema to use within the Vietnamese sport community. Because Vietnamese characters are in UTF-8 format, I decided to use NVARCHAR as a simple and efficient way to avoid data corruption. By separating Court_occupancy records, the schema can handle rush hours smoothly without any bottlenecks. The separate amenities table handles generic values such as "giữ xe" and "Giữ xe ô tô" without needing constantly altering columns.
@@ -16,7 +16,7 @@ I considered wikipedia as a way to get data due to the fact that Wikipedia is an
 
 ## HOW TO INSTALL:
 **TOOLS**: 
-Python == 3.10.11
+Python == 3.10.11 <br>
 SQL Manager studio >= 18
 
 **PACKAGE & DEPENDENCIES**:
